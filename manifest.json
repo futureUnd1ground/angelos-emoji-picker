@@ -1,0 +1,78 @@
+{
+  "id": "emoji-picker",
+  "name": "Emoji Picker",
+  "version": "1.0.0",
+  "author": "futureUnd1ground",
+  "description": {
+    "ru": "Поиск эмодзи на русском и английском по Meta + . с копированием в буфер обмена.",
+    "en": "Search emoji in Russian and English with Meta + . and copy to clipboard."
+  },
+  "icon": "smile",
+  "enabledByDefault": true,
+  "main": "Main.qml",
+  "settings": "Settings.qml",
+  "repository": "https://github.com/futureUnd1ground/angelos-emoji-picker",
+  "appearanceThemes": [
+    {
+      "id": "wallpaper",
+      "name": "Emoji Picker · Из обоев",
+      "kind": "plugin-settings",
+      "settings": {
+        "theme": "wallpaper"
+      }
+    },
+    {
+      "id": "window-dark",
+      "name": "Emoji Picker · Dark",
+      "kind": "plugin-settings",
+      "settings": {
+        "theme": "dark"
+      }
+    },
+    {
+      "id": "window-light",
+      "name": "Emoji Picker · Light",
+      "kind": "plugin-settings",
+      "settings": {
+        "theme": "light"
+      }
+    },
+    {
+      "id": "window-rose",
+      "name": "Emoji Picker · Rose",
+      "kind": "plugin-settings",
+      "settings": {
+        "theme": "rose"
+      }
+    },
+    {
+      "id": "emoji-system",
+      "name": "Эмодзи · System",
+      "kind": "plugin-settings",
+      "settings": {
+        "emojiStyle": "system"
+      }
+    },
+    {
+      "id": "emoji-google",
+      "name": "Эмодзи · Google",
+      "kind": "plugin-settings",
+      "settings": {
+        "emojiStyle": "google"
+      }
+    },
+    {
+      "id": "emoji-twemoji",
+      "name": "Эмодзи · Twemoji",
+      "kind": "plugin-settings",
+      "settings": {
+        "emojiStyle": "twemoji"
+      }
+    },
+    {
+      "id": "custom",
+      "name": "Emoji Picker · Custom…",
+      "kind": "settings"
+    }
+  ]
+}
